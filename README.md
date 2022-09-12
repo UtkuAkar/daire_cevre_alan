@@ -4,6 +4,7 @@
 import java.util.Scanner;
 
 public class daire {
+
     public static void main(String[] args) {
 
         int r;
