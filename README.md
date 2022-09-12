@@ -21,6 +21,23 @@ public class daire {
         System.out.println("Cevresi : "+ cevre);
 
 
+                                                            //ODEV
+        int a, r ;
+        double pi=3.14, c;
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Yari cap giriniz =");
+        r = input.nextInt();
+
+        System.out.print("Merkez acisinin olcusunu giriniz = ");
+        a = input.nextInt();
+
+        c = (pi * (r*r) * a) / 360;
+
+        System.out.println("Daire Alan = " + c);
+
+
+
 
     }
 }
